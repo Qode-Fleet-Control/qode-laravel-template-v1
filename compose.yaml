@@ -45,8 +45,8 @@ services:
       SMTP_URL:
       # this app's own settings
       APP_KEY:
-      APP_ENV:
-      APP_DEBUG:
+      APP_ENV: ${APP_ENV:-production}
+      APP_DEBUG: ${APP_DEBUG:-false}
       APP_URL: ${FLEET_APP_URL:-http://localhost:8000}
       DB_CONNECTION:
       DB_URL:
