@@ -45,3 +45,7 @@ php artisan boost:install
 
 Boost replaces these bootstrap instructions with guidelines tailored to the application. After installation, read `AGENTS.md` again and continue with the user's original request using the generated guidelines.
 </laravel-boost-guidelines>
+
+## Conventions
+
+- Keep the request logger: every HTTP request must log one JSON line with status and duration (Monitoring tab).
